@@ -1,0 +1,102 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    display:block;
+    text-align: center;
+    font-size: 5vh;
+}
+
+label {
+    position:relative;
+    left: 1vw;
+    padding: 1%;
+}
+
+#generator {
+    background-color: lightgrey;
+    padding: 1vh;
+    padding-bottom: 1.5%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 15px;
+}
+
+.input {
+    display: block;
+    width: 95%;
+    padding: 1%;
+    border-radius: .75vh;
+    border-width: 1px; 
+    margin: auto;
+    margin-top: 1%;
+}
+
+.meme {
+    position: relative;
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#deleteButton {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#imageForm {
+    padding-top: 1%;
+}
+
+#sendIt {
+    display: block;
+    padding: 1%;
+    margin: auto;
+    width: 15%;
+    text-decoration: center;
+    font-size: 100%;
+
+}
+
+img {
+    /* display: block; */
+    position: relative;
+    width: 100%;
+}
+
+
+#topText {
+    position: absolute;
+    font-size: 55px;
+    top: 10px;
+    /* margin-top: -380px; */
+    text-align: center;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    z-index: 10; */
+    color: white;
+}
+#bottomText {
+    position: absolute;
+    font-size: 55px;
+    bottom: 10px;
+    /* margin-top: -380px; */
+    text-align: center;
+    width: 100%;
+    /* left: 0px;
+    right: 0px; */
+    /* display: flex;
+    justify-content: center;
+    z-index: 10; */
+    color: white;
+}
+
